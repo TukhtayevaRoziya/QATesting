@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getData should be the correct value 1`] = `
+Array [
+  1,
+  2,
+  3,
+]
+`;
