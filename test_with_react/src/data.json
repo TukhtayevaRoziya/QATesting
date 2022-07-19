@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Wet Burrito",
+    "image": "/images/wet-burrito.jpg",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, nam et est ornare.",
+    "price": 5,
+    "available": true,
+    "spice": 1
+  },
+  {
+    "id": 2,
+    "name": "Poncho Burrito",
+    "image": "/images/poncho-burrito.jpg",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, nam et est ornare.",
+    "price": 7,
+    "available": true,
+    "spice": 2
+  },
+  {
+    "id": 3,
+    "name": "Breakfast Burrito",
+    "image": "/images/breakfast-burrito.jpg",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, nam et est ornare.",
+    "price": 8,
+    "available": true,
+    "spice": 1
+  },
+  {
+    "id": 4,
+    "name": "California Burrito",
+    "image": "/images/california-burrito.jpg",
+    "desc": "A taste of California! Cheese, beef, chicken, and blazing hot chillis!",
+    "price": 9,
+    "available": true,
+    "spice": 3
+  },
+  {
+    "id": 5,
+    "name": "Chimichanga",
+    "image": "/images/chimichanga-burrito.jpg",
+    "desc": "Spice lovers we have you covered! Chicken & beef and blazing hot jalapeno peppers!",
+    "price": 8,
+    "available": true,
+    "spice": 3
+  }
+]
