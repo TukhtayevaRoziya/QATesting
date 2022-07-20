@@ -1,16 +1,11 @@
 import React, { useState } from 'react';
-import { Menu } from './components/Menu';
-import { Order } from './components/Order';
-import burritos from './data';
 
-export const spiceEmoji = spice => '🌶️'.repeat(spice);
-
-export const App = () => {
-  const [orderItems, setOrderItems] = useState([]);
-
+const App = () => {
   return (
     <main>
- Hello
+    Hello
     </main>
   );
 };
+
+export default App
