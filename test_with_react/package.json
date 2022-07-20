@@ -2,10 +2,11 @@
   "name": "testing-rtl",
   "version": "0.1.0",
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "node-sass": "^4.13.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0",
-    "node-sass": "^4.13.0"
+    "react-scripts": "3.2.0"
   },
   "devDependencies": {
     "@testing-library/react": "^9.3.2"
