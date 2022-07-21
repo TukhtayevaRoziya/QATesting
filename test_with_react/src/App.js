@@ -1,26 +1,21 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const App = () => {
-  const [data, setData] = useState(null);
   const [toggle, setToggle] = useState(false);
 
   const onClick =()=> setToggle(prev=> !prev)
 
-  useEffect(() => {
-    setTimeout(() => {
-      setData({})
-    }, 1000);
-  }, []);
-
 
   return (
     <main>
-      {data && <div style={{color: "red"}}>data</div>}
+      {toggle === true && <div data-testid={'toggle-elem'} style={{color: "red"}}>toggle</div>}
     Hello
-    <button onClick={onClick}>send</button>
+    <button data-testid={'toggle-btn'} onClick={onClick}>send</button>
     <input placeholder='Inp Text'/>
     </main>
   );
 };
+
+
 
 export default App
