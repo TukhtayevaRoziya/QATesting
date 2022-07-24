@@ -4,10 +4,12 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/user-event": "^14.3.0",
+    "axios": "^0.27.2",
     "node-sass": "^4.13.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "react-test-render": "^1.1.2"
   },
   "devDependencies": {
     "@testing-library/react": "^9.3.2"

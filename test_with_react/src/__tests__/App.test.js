@@ -27,7 +27,7 @@ describe('<App />', () => {
   test('click event', () => {
     render(<App />);
         const placeholder = screen.getByPlaceholderText(/Inp Text/i)
-    expect(screen.queryByTestId('value-elem')).toContain('')
+    expect(screen.queryByTestId('value-elem')).toContain('Tr')
     // fireEvent.input(placeholder,{
     //   target: {value: 'sdfsdf'}
     // })
